@@ -1,0 +1,24 @@
+button {
+    width: 120px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid darkcyan;
+    color: darkcyan;
+    border-radius: 4px;
+}
+
+button:hover {
+    color: darkblue;
+    border-color: darkblue;
+}
+
+button:active{
+    background: darkblue;
+    color: white;
+}
+
+button:disabled{
+    background: rgb(219, 219, 219);
+    border-color: rgb(219, 219, 219);
+    color: darkgrey;
+}
